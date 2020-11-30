@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+  
+  form {
+    width: 500px;
+    margin: auto;
+    background: #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-family: 'OptimusPrinceps';
+    
+  }
+
+  label, input,select {
+    width: 100%;
+    display: block;
+    font-size: 1.2em;
+    font-family: 'OptimusPrinceps';
+    border-radius: 5px;
+  }
+
+  input, select {
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+
+  input[type="submit"] {
+    width: 30%;
+    margin: auto;
+    background: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="reset"] {
+    width: 30%;
+    margin: auto;
+    background: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="reset"]:hover{
+    color: black;
+  }
+  
+  input[type="submit"]:hover{
+    color: black;
+  }
+
+  input[type="text"]:hover{
+    background-color: rgb(218, 216, 216);
+  }
+
+  input[type="number"]:hover{
+    background-color: rgb(218, 216, 216);
+  }
+
+  input[type="email"]:hover{
+    background-color: rgb(218, 216, 216);
+  }
+
+  input[type="date"]:hover{
+    background-color: rgb(218, 216, 216);
+  }
